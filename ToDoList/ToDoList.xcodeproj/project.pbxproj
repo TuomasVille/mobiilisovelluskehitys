@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C6641323E7F6B700178CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6641223E7F6B700178CBB /* AppDelegate.swift */; };
+		67C6641523E7F6B700178CBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6641423E7F6B700178CBB /* SceneDelegate.swift */; };
+		67C6641723E7F6B800178CBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6641623E7F6B800178CBB /* ContentView.swift */; };
+		67C6641923E7F6B800178CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C6641823E7F6B800178CBB /* Assets.xcassets */; };
+		67C6641C23E7F6B900178CBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C6641B23E7F6B900178CBB /* Preview Assets.xcassets */; };
+		67C6641F23E7F6B900178CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C6641D23E7F6B900178CBB /* LaunchScreen.storyboard */; };
+		67C6642723E7F93700178CBB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6642623E7F93700178CBB /* Menu.swift */; };
+		67C6642923E7FAAA00178CBB /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 67C6642823E7FAAA00178CBB /* menu.json */; };
+		67C6642B23E7FB2300178CBB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6642A23E7FB2300178CBB /* Helper.swift */; };
+		67C6642C23E7FDAD00178CBB /* Menu.swift in Resources */ = {isa = PBXBuildFile; fileRef = 67C6642623E7F93700178CBB /* Menu.swift */; };
+		67C6649E23E8004700178CBB /* strawberry-surprise@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6642E23E8003E00178CBB /* strawberry-surprise@2x.jpg */; };
+		67C6649F23E8004700178CBB /* cheese-toastie-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6642F23E8003E00178CBB /* cheese-toastie-thumb@3x.jpg */; };
+		67C664A023E8004700178CBB /* pepperoni-pizza-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643023E8003E00178CBB /* pepperoni-pizza-thumb@2x.jpg */; };
+		67C664A123E8004700178CBB /* powerhouse-coffee@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643123E8003E00178CBB /* powerhouse-coffee@3x.jpg */; };
+		67C664A223E8004700178CBB /* corn-on-the-cob-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643223E8003E00178CBB /* corn-on-the-cob-thumb@2x.jpg */; };
+		67C664A323E8004700178CBB /* stack-o-pancakes-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643323E8003E00178CBB /* stack-o-pancakes-thumb@3x.jpg */; };
+		67C664A423E8004700178CBB /* virgin-mojito@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643423E8003E00178CBB /* virgin-mojito@3x.jpg */; };
+		67C664A523E8004700178CBB /* strawberry-cooler-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643523E8003E00178CBB /* strawberry-cooler-thumb@2x.jpg */; };
+		67C664A623E8004700178CBB /* chrysanthemum-tea-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643623E8003E00178CBB /* chrysanthemum-tea-thumb@3x.jpg */; };
+		67C664A723E8004700178CBB /* strawberry-surprise@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643723E8003E00178CBB /* strawberry-surprise@3x.jpg */; };
+		67C664A823E8004700178CBB /* all-out-donuts-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643823E8003E00178CBB /* all-out-donuts-thumb@3x.jpg */; };
+		67C664A923E8004700178CBB /* penne-carbonara@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643923E8003E00178CBB /* penne-carbonara@2x.jpg */; };
+		67C664AA23E8004700178CBB /* super-sundae@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643A23E8003E00178CBB /* super-sundae@2x.jpg */; };
+		67C664AB23E8004700178CBB /* pesto-farfalle-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643B23E8003E00178CBB /* pesto-farfalle-thumb@2x.jpg */; };
+		67C664AC23E8004700178CBB /* full-english-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643C23E8003F00178CBB /* full-english-thumb@3x.jpg */; };
+		67C664AD23E8004700178CBB /* macarons-galore-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643D23E8003F00178CBB /* macarons-galore-thumb@3x.jpg */; };
+		67C664AE23E8004700178CBB /* veggie-pizza-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643E23E8003F00178CBB /* veggie-pizza-thumb@3x.jpg */; };
+		67C664AF23E8004700178CBB /* veggie-pizza-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6643F23E8003F00178CBB /* veggie-pizza-thumb@2x.jpg */; };
+		67C664B023E8004700178CBB /* penne-carbonara-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644023E8003F00178CBB /* penne-carbonara-thumb@2x.jpg */; };
+		67C664B123E8004700178CBB /* maple-french-toast@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644123E8003F00178CBB /* maple-french-toast@2x.jpg */; };
+		67C664B223E8004700178CBB /* tower-burger-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644223E8003F00178CBB /* tower-burger-thumb@2x.jpg */; };
+		67C664B323E8004700178CBB /* chrysanthemum-tea-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644323E8003F00178CBB /* chrysanthemum-tea-thumb@2x.jpg */; };
+		67C664B423E8004700178CBB /* chrysanthemum-tea@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644423E8003F00178CBB /* chrysanthemum-tea@2x.jpg */; };
+		67C664B523E8004700178CBB /* superfood-salad-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644523E8003F00178CBB /* superfood-salad-thumb@3x.jpg */; };
+		67C664B623E8004700178CBB /* mushroom-tagliatelle@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644623E8003F00178CBB /* mushroom-tagliatelle@3x.jpg */; };
+		67C664B723E8004700178CBB /* straight-up-oj@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644723E8003F00178CBB /* straight-up-oj@3x.jpg */; };
+		67C664B823E8004700178CBB /* mushroom-tagliatelle@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644823E8003F00178CBB /* mushroom-tagliatelle@2x.jpg */; };
+		67C664B923E8004700178CBB /* virgin-mojito@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644923E8003F00178CBB /* virgin-mojito@2x.jpg */; };
+		67C664BA23E8004700178CBB /* power-muesli-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644A23E8004000178CBB /* power-muesli-thumb@2x.jpg */; };
+		67C664BB23E8004700178CBB /* corn-on-the-cob@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644B23E8004000178CBB /* corn-on-the-cob@2x.jpg */; };
+		67C664BC23E8004700178CBB /* virgin-mojito-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644C23E8004000178CBB /* virgin-mojito-thumb@3x.jpg */; };
+		67C664BD23E8004700178CBB /* straight-up-oj-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644D23E8004000178CBB /* straight-up-oj-thumb@2x.jpg */; };
+		67C664BE23E8004700178CBB /* maple-french-toast-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644E23E8004000178CBB /* maple-french-toast-thumb@3x.jpg */; };
+		67C664BF23E8004700178CBB /* strawberry-surprise-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6644F23E8004000178CBB /* strawberry-surprise-thumb@2x.jpg */; };
+		67C664C023E8004700178CBB /* pepperoni-pizza-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645023E8004000178CBB /* pepperoni-pizza-thumb@3x.jpg */; };
+		67C664C123E8004700178CBB /* stack-o-pancakes@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645123E8004000178CBB /* stack-o-pancakes@2x.jpg */; };
+		67C664C223E8004700178CBB /* mushroom-tagliatelle-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645223E8004000178CBB /* mushroom-tagliatelle-thumb@3x.jpg */; };
+		67C664C323E8004700178CBB /* maple-french-toast@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645323E8004000178CBB /* maple-french-toast@3x.jpg */; };
+		67C664C423E8004700178CBB /* paella-alicante-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645423E8004000178CBB /* paella-alicante-thumb@2x.jpg */; };
+		67C664C523E8004700178CBB /* powerhouse-coffee-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645523E8004000178CBB /* powerhouse-coffee-thumb@3x.jpg */; };
+		67C664C623E8004700178CBB /* strawberry-cooler-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645623E8004100178CBB /* strawberry-cooler-thumb@3x.jpg */; };
+		67C664C723E8004700178CBB /* fillet-steak-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645723E8004100178CBB /* fillet-steak-thumb@3x.jpg */; };
+		67C664C823E8004700178CBB /* tower-burger-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645823E8004100178CBB /* tower-burger-thumb@3x.jpg */; };
+		67C664C923E8004700178CBB /* porridge-deluxe@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645923E8004100178CBB /* porridge-deluxe@3x.jpg */; };
+		67C664CA23E8004700178CBB /* veggie-pizza@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645A23E8004100178CBB /* veggie-pizza@2x.jpg */; };
+		67C664CB23E8004700178CBB /* stack-o-pancakes-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645B23E8004100178CBB /* stack-o-pancakes-thumb@2x.jpg */; };
+		67C664CC23E8004700178CBB /* mexican-mocha-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645C23E8004100178CBB /* mexican-mocha-thumb@3x.jpg */; };
+		67C664CD23E8004700178CBB /* veggie-pizza@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645D23E8004100178CBB /* veggie-pizza@3x.jpg */; };
+		67C664CE23E8004700178CBB /* super-sundae-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645E23E8004100178CBB /* super-sundae-thumb@3x.jpg */; };
+		67C664CF23E8004700178CBB /* powerhouse-coffee-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6645F23E8004100178CBB /* powerhouse-coffee-thumb@2x.jpg */; };
+		67C664D023E8004700178CBB /* power-muesli-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646023E8004100178CBB /* power-muesli-thumb@3x.jpg */; };
+		67C664D123E8004700178CBB /* macarons-galore-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646123E8004100178CBB /* macarons-galore-thumb@2x.jpg */; };
+		67C664D223E8004700178CBB /* fillet-steak-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646223E8004200178CBB /* fillet-steak-thumb@2x.jpg */; };
+		67C664D323E8004700178CBB /* super-sundae-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646323E8004200178CBB /* super-sundae-thumb@2x.jpg */; };
+		67C664D423E8004700178CBB /* corn-on-the-cob-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646423E8004200178CBB /* corn-on-the-cob-thumb@3x.jpg */; };
+		67C664D523E8004700178CBB /* superfood-salad-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646523E8004200178CBB /* superfood-salad-thumb@2x.jpg */; };
+		67C664D623E8004700178CBB /* penne-carbonara-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646623E8004200178CBB /* penne-carbonara-thumb@3x.jpg */; };
+		67C664D723E8004700178CBB /* cheese-toastie@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646723E8004200178CBB /* cheese-toastie@2x.jpg */; };
+		67C664D823E8004700178CBB /* mexican-mocha@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646823E8004200178CBB /* mexican-mocha@2x.jpg */; };
+		67C664D923E8004700178CBB /* corn-on-the-cob@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646923E8004200178CBB /* corn-on-the-cob@3x.jpg */; };
+		67C664DA23E8004700178CBB /* maple-french-toast-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646A23E8004200178CBB /* maple-french-toast-thumb@2x.jpg */; };
+		67C664DB23E8004700178CBB /* fresh-baked-croissant-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646B23E8004200178CBB /* fresh-baked-croissant-thumb@3x.jpg */; };
+		67C664DC23E8004700178CBB /* full-english-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646C23E8004200178CBB /* full-english-thumb@2x.jpg */; };
+		67C664DD23E8004700178CBB /* pesto-farfalle@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646D23E8004200178CBB /* pesto-farfalle@3x.jpg */; };
+		67C664DE23E8004700178CBB /* cheese-toastie@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646E23E8004300178CBB /* cheese-toastie@3x.jpg */; };
+		67C664DF23E8004700178CBB /* paella-alicante-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6646F23E8004300178CBB /* paella-alicante-thumb@3x.jpg */; };
+		67C664E023E8004700178CBB /* macarons-galore@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647023E8004300178CBB /* macarons-galore@2x.jpg */; };
+		67C664E123E8004700178CBB /* stack-o-pancakes@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647123E8004300178CBB /* stack-o-pancakes@3x.jpg */; };
+		67C664E223E8004700178CBB /* all-out-donuts@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647223E8004300178CBB /* all-out-donuts@3x.jpg */; };
+		67C664E323E8004700178CBB /* porridge-deluxe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647323E8004300178CBB /* porridge-deluxe@2x.jpg */; };
+		67C664E423E8004700178CBB /* fresh-baked-croissant@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647423E8004300178CBB /* fresh-baked-croissant@3x.jpg */; };
+		67C664E523E8004700178CBB /* superfood-salad@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647523E8004300178CBB /* superfood-salad@3x.jpg */; };
+		67C664E623E8004700178CBB /* fillet-steak@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647623E8004300178CBB /* fillet-steak@2x.jpg */; };
+		67C664E723E8004700178CBB /* pepperoni-pizza@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647723E8004300178CBB /* pepperoni-pizza@3x.jpg */; };
+		67C664E823E8004700178CBB /* mexican-mocha-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647823E8004300178CBB /* mexican-mocha-thumb@2x.jpg */; };
+		67C664E923E8004700178CBB /* strawberry-surprise-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647923E8004300178CBB /* strawberry-surprise-thumb@3x.jpg */; };
+		67C664EA23E8004700178CBB /* power-muesli@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647A23E8004400178CBB /* power-muesli@2x.jpg */; };
+		67C664EB23E8004700178CBB /* full-english@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647B23E8004400178CBB /* full-english@3x.jpg */; };
+		67C664EC23E8004700178CBB /* full-english@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647C23E8004400178CBB /* full-english@2x.jpg */; };
+		67C664ED23E8004700178CBB /* straight-up-oj@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647D23E8004400178CBB /* straight-up-oj@2x.jpg */; };
+		67C664EE23E8004700178CBB /* pesto-farfalle@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647E23E8004400178CBB /* pesto-farfalle@2x.jpg */; };
+		67C664EF23E8004700178CBB /* thai-red-curry@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6647F23E8004400178CBB /* thai-red-curry@2x.jpg */; };
+		67C664F023E8004700178CBB /* fresh-baked-croissant-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648023E8004400178CBB /* fresh-baked-croissant-thumb@2x.jpg */; };
+		67C664F123E8004700178CBB /* strawberry-cooler@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648123E8004400178CBB /* strawberry-cooler@3x.jpg */; };
+		67C664F223E8004700178CBB /* porridge-deluxe-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648223E8004400178CBB /* porridge-deluxe-thumb@3x.jpg */; };
+		67C664F323E8004700178CBB /* fillet-steak@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648323E8004400178CBB /* fillet-steak@3x.jpg */; };
+		67C664F423E8004700178CBB /* pepperoni-pizza@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648423E8004400178CBB /* pepperoni-pizza@2x.jpg */; };
+		67C664F523E8004700178CBB /* tower-burger@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648523E8004400178CBB /* tower-burger@3x.jpg */; };
+		67C664F623E8004700178CBB /* straight-up-oj-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648623E8004500178CBB /* straight-up-oj-thumb@3x.jpg */; };
+		67C664F723E8004700178CBB /* paella-alicante@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648723E8004500178CBB /* paella-alicante@2x.jpg */; };
+		67C664F823E8004700178CBB /* super-sundae@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648823E8004500178CBB /* super-sundae@3x.jpg */; };
+		67C664F923E8004700178CBB /* mushroom-tagliatelle-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648923E8004500178CBB /* mushroom-tagliatelle-thumb@2x.jpg */; };
+		67C664FA23E8004700178CBB /* strawberry-cooler@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648A23E8004500178CBB /* strawberry-cooler@2x.jpg */; };
+		67C664FB23E8004700178CBB /* macarons-galore@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648B23E8004500178CBB /* macarons-galore@3x.jpg */; };
+		67C664FC23E8004700178CBB /* cheese-toastie-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648C23E8004500178CBB /* cheese-toastie-thumb@2x.jpg */; };
+		67C664FD23E8004700178CBB /* superfood-salad@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648D23E8004500178CBB /* superfood-salad@2x.jpg */; };
+		67C664FE23E8004700178CBB /* thai-red-curry-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648E23E8004500178CBB /* thai-red-curry-thumb@3x.jpg */; };
+		67C664FF23E8004700178CBB /* thai-red-curry-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6648F23E8004500178CBB /* thai-red-curry-thumb@2x.jpg */; };
+		67C6650023E8004700178CBB /* virgin-mojito-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649023E8004500178CBB /* virgin-mojito-thumb@2x.jpg */; };
+		67C6650123E8004700178CBB /* paella-alicante@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649123E8004500178CBB /* paella-alicante@3x.jpg */; };
+		67C6650223E8004700178CBB /* penne-carbonara@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649223E8004600178CBB /* penne-carbonara@3x.jpg */; };
+		67C6650323E8004700178CBB /* all-out-donuts@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649323E8004600178CBB /* all-out-donuts@2x.jpg */; };
+		67C6650423E8004700178CBB /* powerhouse-coffee@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649423E8004600178CBB /* powerhouse-coffee@2x.jpg */; };
+		67C6650523E8004700178CBB /* thai-red-curry@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649523E8004600178CBB /* thai-red-curry@3x.jpg */; };
+		67C6650623E8004700178CBB /* tower-burger@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649623E8004600178CBB /* tower-burger@2x.jpg */; };
+		67C6650723E8004700178CBB /* porridge-deluxe-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649723E8004600178CBB /* porridge-deluxe-thumb@2x.jpg */; };
+		67C6650823E8004700178CBB /* pesto-farfalle-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649823E8004600178CBB /* pesto-farfalle-thumb@3x.jpg */; };
+		67C6650923E8004700178CBB /* chrysanthemum-tea@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649923E8004600178CBB /* chrysanthemum-tea@3x.jpg */; };
+		67C6650A23E8004700178CBB /* mexican-mocha@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649A23E8004600178CBB /* mexican-mocha@3x.jpg */; };
+		67C6650B23E8004700178CBB /* power-muesli@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649B23E8004600178CBB /* power-muesli@3x.jpg */; };
+		67C6650C23E8004700178CBB /* all-out-donuts-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649C23E8004600178CBB /* all-out-donuts-thumb@2x.jpg */; };
+		67C6650D23E8004700178CBB /* fresh-baked-croissant@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67C6649D23E8004600178CBB /* fresh-baked-croissant@2x.jpg */; };
+		67C6650F23E801F500178CBB /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6650E23E801F500178CBB /* ItemRow.swift */; };
+		67C665F123E8083A00178CBB /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C665F023E8083A00178CBB /* ItemDetail.swift */; };
+		67C665F323E80A9900178CBB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C665F223E80A9900178CBB /* Order.swift */; };
+		67C665F523E80BE600178CBB /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C665F423E80BE600178CBB /* OrderView.swift */; };
+		67C665F723E80D7300178CBB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C665F623E80D7300178CBB /* AppView.swift */; };
+		67C665FB23E80F1900178CBB /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C665FA23E80F1900178CBB /* CheckoutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67C6640F23E7F6B700178CBB /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C6641223E7F6B700178CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67C6641423E7F6B700178CBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67C6641623E7F6B800178CBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67C6641823E7F6B800178CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C6641B23E7F6B900178CBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67C6641E23E7F6B900178CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67C6642023E7F6B900178CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C6642623E7F93700178CBB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		67C6642823E7FAAA00178CBB /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		67C6642A23E7FB2300178CBB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		67C6642E23E8003E00178CBB /* strawberry-surprise@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-surprise@2x.jpg"; sourceTree = "<group>"; };
+		67C6642F23E8003E00178CBB /* cheese-toastie-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cheese-toastie-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643023E8003E00178CBB /* pepperoni-pizza-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pepperoni-pizza-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6643123E8003E00178CBB /* powerhouse-coffee@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "powerhouse-coffee@3x.jpg"; sourceTree = "<group>"; };
+		67C6643223E8003E00178CBB /* corn-on-the-cob-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corn-on-the-cob-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6643323E8003E00178CBB /* stack-o-pancakes-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stack-o-pancakes-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643423E8003E00178CBB /* virgin-mojito@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virgin-mojito@3x.jpg"; sourceTree = "<group>"; };
+		67C6643523E8003E00178CBB /* strawberry-cooler-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-cooler-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6643623E8003E00178CBB /* chrysanthemum-tea-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chrysanthemum-tea-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643723E8003E00178CBB /* strawberry-surprise@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-surprise@3x.jpg"; sourceTree = "<group>"; };
+		67C6643823E8003E00178CBB /* all-out-donuts-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-out-donuts-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643923E8003E00178CBB /* penne-carbonara@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penne-carbonara@2x.jpg"; sourceTree = "<group>"; };
+		67C6643A23E8003E00178CBB /* super-sundae@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "super-sundae@2x.jpg"; sourceTree = "<group>"; };
+		67C6643B23E8003E00178CBB /* pesto-farfalle-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pesto-farfalle-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6643C23E8003F00178CBB /* full-english-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "full-english-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643D23E8003F00178CBB /* macarons-galore-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "macarons-galore-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643E23E8003F00178CBB /* veggie-pizza-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "veggie-pizza-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6643F23E8003F00178CBB /* veggie-pizza-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "veggie-pizza-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644023E8003F00178CBB /* penne-carbonara-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penne-carbonara-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644123E8003F00178CBB /* maple-french-toast@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maple-french-toast@2x.jpg"; sourceTree = "<group>"; };
+		67C6644223E8003F00178CBB /* tower-burger-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tower-burger-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644323E8003F00178CBB /* chrysanthemum-tea-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chrysanthemum-tea-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644423E8003F00178CBB /* chrysanthemum-tea@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chrysanthemum-tea@2x.jpg"; sourceTree = "<group>"; };
+		67C6644523E8003F00178CBB /* superfood-salad-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "superfood-salad-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6644623E8003F00178CBB /* mushroom-tagliatelle@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mushroom-tagliatelle@3x.jpg"; sourceTree = "<group>"; };
+		67C6644723E8003F00178CBB /* straight-up-oj@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "straight-up-oj@3x.jpg"; sourceTree = "<group>"; };
+		67C6644823E8003F00178CBB /* mushroom-tagliatelle@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mushroom-tagliatelle@2x.jpg"; sourceTree = "<group>"; };
+		67C6644923E8003F00178CBB /* virgin-mojito@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virgin-mojito@2x.jpg"; sourceTree = "<group>"; };
+		67C6644A23E8004000178CBB /* power-muesli-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "power-muesli-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644B23E8004000178CBB /* corn-on-the-cob@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corn-on-the-cob@2x.jpg"; sourceTree = "<group>"; };
+		67C6644C23E8004000178CBB /* virgin-mojito-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virgin-mojito-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6644D23E8004000178CBB /* straight-up-oj-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "straight-up-oj-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6644E23E8004000178CBB /* maple-french-toast-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maple-french-toast-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6644F23E8004000178CBB /* strawberry-surprise-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-surprise-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6645023E8004000178CBB /* pepperoni-pizza-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pepperoni-pizza-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645123E8004000178CBB /* stack-o-pancakes@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stack-o-pancakes@2x.jpg"; sourceTree = "<group>"; };
+		67C6645223E8004000178CBB /* mushroom-tagliatelle-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mushroom-tagliatelle-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645323E8004000178CBB /* maple-french-toast@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maple-french-toast@3x.jpg"; sourceTree = "<group>"; };
+		67C6645423E8004000178CBB /* paella-alicante-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paella-alicante-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6645523E8004000178CBB /* powerhouse-coffee-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "powerhouse-coffee-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645623E8004100178CBB /* strawberry-cooler-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-cooler-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645723E8004100178CBB /* fillet-steak-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fillet-steak-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645823E8004100178CBB /* tower-burger-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tower-burger-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645923E8004100178CBB /* porridge-deluxe@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porridge-deluxe@3x.jpg"; sourceTree = "<group>"; };
+		67C6645A23E8004100178CBB /* veggie-pizza@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "veggie-pizza@2x.jpg"; sourceTree = "<group>"; };
+		67C6645B23E8004100178CBB /* stack-o-pancakes-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stack-o-pancakes-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6645C23E8004100178CBB /* mexican-mocha-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mexican-mocha-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645D23E8004100178CBB /* veggie-pizza@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "veggie-pizza@3x.jpg"; sourceTree = "<group>"; };
+		67C6645E23E8004100178CBB /* super-sundae-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "super-sundae-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6645F23E8004100178CBB /* powerhouse-coffee-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "powerhouse-coffee-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646023E8004100178CBB /* power-muesli-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "power-muesli-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6646123E8004100178CBB /* macarons-galore-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "macarons-galore-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646223E8004200178CBB /* fillet-steak-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fillet-steak-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646323E8004200178CBB /* super-sundae-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "super-sundae-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646423E8004200178CBB /* corn-on-the-cob-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corn-on-the-cob-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6646523E8004200178CBB /* superfood-salad-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "superfood-salad-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646623E8004200178CBB /* penne-carbonara-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penne-carbonara-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6646723E8004200178CBB /* cheese-toastie@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cheese-toastie@2x.jpg"; sourceTree = "<group>"; };
+		67C6646823E8004200178CBB /* mexican-mocha@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mexican-mocha@2x.jpg"; sourceTree = "<group>"; };
+		67C6646923E8004200178CBB /* corn-on-the-cob@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corn-on-the-cob@3x.jpg"; sourceTree = "<group>"; };
+		67C6646A23E8004200178CBB /* maple-french-toast-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maple-french-toast-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646B23E8004200178CBB /* fresh-baked-croissant-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fresh-baked-croissant-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6646C23E8004200178CBB /* full-english-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "full-english-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6646D23E8004200178CBB /* pesto-farfalle@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pesto-farfalle@3x.jpg"; sourceTree = "<group>"; };
+		67C6646E23E8004300178CBB /* cheese-toastie@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cheese-toastie@3x.jpg"; sourceTree = "<group>"; };
+		67C6646F23E8004300178CBB /* paella-alicante-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paella-alicante-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6647023E8004300178CBB /* macarons-galore@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "macarons-galore@2x.jpg"; sourceTree = "<group>"; };
+		67C6647123E8004300178CBB /* stack-o-pancakes@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stack-o-pancakes@3x.jpg"; sourceTree = "<group>"; };
+		67C6647223E8004300178CBB /* all-out-donuts@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-out-donuts@3x.jpg"; sourceTree = "<group>"; };
+		67C6647323E8004300178CBB /* porridge-deluxe@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porridge-deluxe@2x.jpg"; sourceTree = "<group>"; };
+		67C6647423E8004300178CBB /* fresh-baked-croissant@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fresh-baked-croissant@3x.jpg"; sourceTree = "<group>"; };
+		67C6647523E8004300178CBB /* superfood-salad@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "superfood-salad@3x.jpg"; sourceTree = "<group>"; };
+		67C6647623E8004300178CBB /* fillet-steak@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fillet-steak@2x.jpg"; sourceTree = "<group>"; };
+		67C6647723E8004300178CBB /* pepperoni-pizza@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pepperoni-pizza@3x.jpg"; sourceTree = "<group>"; };
+		67C6647823E8004300178CBB /* mexican-mocha-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mexican-mocha-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6647923E8004300178CBB /* strawberry-surprise-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-surprise-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6647A23E8004400178CBB /* power-muesli@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "power-muesli@2x.jpg"; sourceTree = "<group>"; };
+		67C6647B23E8004400178CBB /* full-english@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "full-english@3x.jpg"; sourceTree = "<group>"; };
+		67C6647C23E8004400178CBB /* full-english@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "full-english@2x.jpg"; sourceTree = "<group>"; };
+		67C6647D23E8004400178CBB /* straight-up-oj@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "straight-up-oj@2x.jpg"; sourceTree = "<group>"; };
+		67C6647E23E8004400178CBB /* pesto-farfalle@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pesto-farfalle@2x.jpg"; sourceTree = "<group>"; };
+		67C6647F23E8004400178CBB /* thai-red-curry@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai-red-curry@2x.jpg"; sourceTree = "<group>"; };
+		67C6648023E8004400178CBB /* fresh-baked-croissant-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fresh-baked-croissant-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6648123E8004400178CBB /* strawberry-cooler@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-cooler@3x.jpg"; sourceTree = "<group>"; };
+		67C6648223E8004400178CBB /* porridge-deluxe-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porridge-deluxe-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6648323E8004400178CBB /* fillet-steak@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fillet-steak@3x.jpg"; sourceTree = "<group>"; };
+		67C6648423E8004400178CBB /* pepperoni-pizza@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pepperoni-pizza@2x.jpg"; sourceTree = "<group>"; };
+		67C6648523E8004400178CBB /* tower-burger@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tower-burger@3x.jpg"; sourceTree = "<group>"; };
+		67C6648623E8004500178CBB /* straight-up-oj-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "straight-up-oj-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6648723E8004500178CBB /* paella-alicante@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paella-alicante@2x.jpg"; sourceTree = "<group>"; };
+		67C6648823E8004500178CBB /* super-sundae@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "super-sundae@3x.jpg"; sourceTree = "<group>"; };
+		67C6648923E8004500178CBB /* mushroom-tagliatelle-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mushroom-tagliatelle-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6648A23E8004500178CBB /* strawberry-cooler@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "strawberry-cooler@2x.jpg"; sourceTree = "<group>"; };
+		67C6648B23E8004500178CBB /* macarons-galore@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "macarons-galore@3x.jpg"; sourceTree = "<group>"; };
+		67C6648C23E8004500178CBB /* cheese-toastie-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cheese-toastie-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6648D23E8004500178CBB /* superfood-salad@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "superfood-salad@2x.jpg"; sourceTree = "<group>"; };
+		67C6648E23E8004500178CBB /* thai-red-curry-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai-red-curry-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6648F23E8004500178CBB /* thai-red-curry-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai-red-curry-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6649023E8004500178CBB /* virgin-mojito-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "virgin-mojito-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6649123E8004500178CBB /* paella-alicante@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paella-alicante@3x.jpg"; sourceTree = "<group>"; };
+		67C6649223E8004600178CBB /* penne-carbonara@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penne-carbonara@3x.jpg"; sourceTree = "<group>"; };
+		67C6649323E8004600178CBB /* all-out-donuts@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-out-donuts@2x.jpg"; sourceTree = "<group>"; };
+		67C6649423E8004600178CBB /* powerhouse-coffee@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "powerhouse-coffee@2x.jpg"; sourceTree = "<group>"; };
+		67C6649523E8004600178CBB /* thai-red-curry@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai-red-curry@3x.jpg"; sourceTree = "<group>"; };
+		67C6649623E8004600178CBB /* tower-burger@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tower-burger@2x.jpg"; sourceTree = "<group>"; };
+		67C6649723E8004600178CBB /* porridge-deluxe-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "porridge-deluxe-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6649823E8004600178CBB /* pesto-farfalle-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pesto-farfalle-thumb@3x.jpg"; sourceTree = "<group>"; };
+		67C6649923E8004600178CBB /* chrysanthemum-tea@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chrysanthemum-tea@3x.jpg"; sourceTree = "<group>"; };
+		67C6649A23E8004600178CBB /* mexican-mocha@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mexican-mocha@3x.jpg"; sourceTree = "<group>"; };
+		67C6649B23E8004600178CBB /* power-muesli@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "power-muesli@3x.jpg"; sourceTree = "<group>"; };
+		67C6649C23E8004600178CBB /* all-out-donuts-thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "all-out-donuts-thumb@2x.jpg"; sourceTree = "<group>"; };
+		67C6649D23E8004600178CBB /* fresh-baked-croissant@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fresh-baked-croissant@2x.jpg"; sourceTree = "<group>"; };
+		67C6650E23E801F500178CBB /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		67C665F023E8083A00178CBB /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		67C665F223E80A9900178CBB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		67C665F423E80BE600178CBB /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		67C665F623E80D7300178CBB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		67C665FA23E80F1900178CBB /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckoutView.swift; path = ../CheckoutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C6640C23E7F6B700178CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C6640623E7F6B700178CBB = {
+			isa = PBXGroup;
+			children = (
+				67C6641123E7F6B700178CBB /* ToDoList */,
+				67C6641023E7F6B700178CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C6641023E7F6B700178CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C6640F23E7F6B700178CBB /* ToDoList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C6641123E7F6B700178CBB /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				67C6641223E7F6B700178CBB /* AppDelegate.swift */,
+				67C6641423E7F6B700178CBB /* SceneDelegate.swift */,
+				67C6641623E7F6B800178CBB /* ContentView.swift */,
+				67C665FA23E80F1900178CBB /* CheckoutView.swift */,
+				67C6650E23E801F500178CBB /* ItemRow.swift */,
+				67C665F023E8083A00178CBB /* ItemDetail.swift */,
+				67C665F423E80BE600178CBB /* OrderView.swift */,
+				67C665F623E80D7300178CBB /* AppView.swift */,
+				67C665F223E80A9900178CBB /* Order.swift */,
+				67C6642623E7F93700178CBB /* Menu.swift */,
+				67C6642A23E7FB2300178CBB /* Helper.swift */,
+				67C6642823E7FAAA00178CBB /* menu.json */,
+				67C6642D23E8000600178CBB /* Images */,
+				67C6641823E7F6B800178CBB /* Assets.xcassets */,
+				67C6641D23E7F6B900178CBB /* LaunchScreen.storyboard */,
+				67C6642023E7F6B900178CBB /* Info.plist */,
+				67C6641A23E7F6B900178CBB /* Preview Content */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		67C6641A23E7F6B900178CBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67C6641B23E7F6B900178CBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67C6642D23E8000600178CBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				67C6649C23E8004600178CBB /* all-out-donuts-thumb@2x.jpg */,
+				67C6643823E8003E00178CBB /* all-out-donuts-thumb@3x.jpg */,
+				67C6649323E8004600178CBB /* all-out-donuts@2x.jpg */,
+				67C6647223E8004300178CBB /* all-out-donuts@3x.jpg */,
+				67C6648C23E8004500178CBB /* cheese-toastie-thumb@2x.jpg */,
+				67C6642F23E8003E00178CBB /* cheese-toastie-thumb@3x.jpg */,
+				67C6646723E8004200178CBB /* cheese-toastie@2x.jpg */,
+				67C6646E23E8004300178CBB /* cheese-toastie@3x.jpg */,
+				67C6644323E8003F00178CBB /* chrysanthemum-tea-thumb@2x.jpg */,
+				67C6643623E8003E00178CBB /* chrysanthemum-tea-thumb@3x.jpg */,
+				67C6644423E8003F00178CBB /* chrysanthemum-tea@2x.jpg */,
+				67C6649923E8004600178CBB /* chrysanthemum-tea@3x.jpg */,
+				67C6643223E8003E00178CBB /* corn-on-the-cob-thumb@2x.jpg */,
+				67C6646423E8004200178CBB /* corn-on-the-cob-thumb@3x.jpg */,
+				67C6644B23E8004000178CBB /* corn-on-the-cob@2x.jpg */,
+				67C6646923E8004200178CBB /* corn-on-the-cob@3x.jpg */,
+				67C6646223E8004200178CBB /* fillet-steak-thumb@2x.jpg */,
+				67C6645723E8004100178CBB /* fillet-steak-thumb@3x.jpg */,
+				67C6647623E8004300178CBB /* fillet-steak@2x.jpg */,
+				67C6648323E8004400178CBB /* fillet-steak@3x.jpg */,
+				67C6648023E8004400178CBB /* fresh-baked-croissant-thumb@2x.jpg */,
+				67C6646B23E8004200178CBB /* fresh-baked-croissant-thumb@3x.jpg */,
+				67C6649D23E8004600178CBB /* fresh-baked-croissant@2x.jpg */,
+				67C6647423E8004300178CBB /* fresh-baked-croissant@3x.jpg */,
+				67C6646C23E8004200178CBB /* full-english-thumb@2x.jpg */,
+				67C6643C23E8003F00178CBB /* full-english-thumb@3x.jpg */,
+				67C6647C23E8004400178CBB /* full-english@2x.jpg */,
+				67C6647B23E8004400178CBB /* full-english@3x.jpg */,
+				67C6646123E8004100178CBB /* macarons-galore-thumb@2x.jpg */,
+				67C6643D23E8003F00178CBB /* macarons-galore-thumb@3x.jpg */,
+				67C6647023E8004300178CBB /* macarons-galore@2x.jpg */,
+				67C6648B23E8004500178CBB /* macarons-galore@3x.jpg */,
+				67C6646A23E8004200178CBB /* maple-french-toast-thumb@2x.jpg */,
+				67C6644E23E8004000178CBB /* maple-french-toast-thumb@3x.jpg */,
+				67C6644123E8003F00178CBB /* maple-french-toast@2x.jpg */,
+				67C6645323E8004000178CBB /* maple-french-toast@3x.jpg */,
+				67C6647823E8004300178CBB /* mexican-mocha-thumb@2x.jpg */,
+				67C6645C23E8004100178CBB /* mexican-mocha-thumb@3x.jpg */,
+				67C6646823E8004200178CBB /* mexican-mocha@2x.jpg */,
+				67C6649A23E8004600178CBB /* mexican-mocha@3x.jpg */,
+				67C6648923E8004500178CBB /* mushroom-tagliatelle-thumb@2x.jpg */,
+				67C6645223E8004000178CBB /* mushroom-tagliatelle-thumb@3x.jpg */,
+				67C6644823E8003F00178CBB /* mushroom-tagliatelle@2x.jpg */,
+				67C6644623E8003F00178CBB /* mushroom-tagliatelle@3x.jpg */,
+				67C6645423E8004000178CBB /* paella-alicante-thumb@2x.jpg */,
+				67C6646F23E8004300178CBB /* paella-alicante-thumb@3x.jpg */,
+				67C6648723E8004500178CBB /* paella-alicante@2x.jpg */,
+				67C6649123E8004500178CBB /* paella-alicante@3x.jpg */,
+				67C6644023E8003F00178CBB /* penne-carbonara-thumb@2x.jpg */,
+				67C6646623E8004200178CBB /* penne-carbonara-thumb@3x.jpg */,
+				67C6643923E8003E00178CBB /* penne-carbonara@2x.jpg */,
+				67C6649223E8004600178CBB /* penne-carbonara@3x.jpg */,
+				67C6643023E8003E00178CBB /* pepperoni-pizza-thumb@2x.jpg */,
+				67C6645023E8004000178CBB /* pepperoni-pizza-thumb@3x.jpg */,
+				67C6648423E8004400178CBB /* pepperoni-pizza@2x.jpg */,
+				67C6647723E8004300178CBB /* pepperoni-pizza@3x.jpg */,
+				67C6643B23E8003E00178CBB /* pesto-farfalle-thumb@2x.jpg */,
+				67C6649823E8004600178CBB /* pesto-farfalle-thumb@3x.jpg */,
+				67C6647E23E8004400178CBB /* pesto-farfalle@2x.jpg */,
+				67C6646D23E8004200178CBB /* pesto-farfalle@3x.jpg */,
+				67C6649723E8004600178CBB /* porridge-deluxe-thumb@2x.jpg */,
+				67C6648223E8004400178CBB /* porridge-deluxe-thumb@3x.jpg */,
+				67C6647323E8004300178CBB /* porridge-deluxe@2x.jpg */,
+				67C6645923E8004100178CBB /* porridge-deluxe@3x.jpg */,
+				67C6644A23E8004000178CBB /* power-muesli-thumb@2x.jpg */,
+				67C6646023E8004100178CBB /* power-muesli-thumb@3x.jpg */,
+				67C6647A23E8004400178CBB /* power-muesli@2x.jpg */,
+				67C6649B23E8004600178CBB /* power-muesli@3x.jpg */,
+				67C6645F23E8004100178CBB /* powerhouse-coffee-thumb@2x.jpg */,
+				67C6645523E8004000178CBB /* powerhouse-coffee-thumb@3x.jpg */,
+				67C6649423E8004600178CBB /* powerhouse-coffee@2x.jpg */,
+				67C6643123E8003E00178CBB /* powerhouse-coffee@3x.jpg */,
+				67C6645B23E8004100178CBB /* stack-o-pancakes-thumb@2x.jpg */,
+				67C6643323E8003E00178CBB /* stack-o-pancakes-thumb@3x.jpg */,
+				67C6645123E8004000178CBB /* stack-o-pancakes@2x.jpg */,
+				67C6647123E8004300178CBB /* stack-o-pancakes@3x.jpg */,
+				67C6644D23E8004000178CBB /* straight-up-oj-thumb@2x.jpg */,
+				67C6648623E8004500178CBB /* straight-up-oj-thumb@3x.jpg */,
+				67C6647D23E8004400178CBB /* straight-up-oj@2x.jpg */,
+				67C6644723E8003F00178CBB /* straight-up-oj@3x.jpg */,
+				67C6643523E8003E00178CBB /* strawberry-cooler-thumb@2x.jpg */,
+				67C6645623E8004100178CBB /* strawberry-cooler-thumb@3x.jpg */,
+				67C6648A23E8004500178CBB /* strawberry-cooler@2x.jpg */,
+				67C6648123E8004400178CBB /* strawberry-cooler@3x.jpg */,
+				67C6644F23E8004000178CBB /* strawberry-surprise-thumb@2x.jpg */,
+				67C6647923E8004300178CBB /* strawberry-surprise-thumb@3x.jpg */,
+				67C6642E23E8003E00178CBB /* strawberry-surprise@2x.jpg */,
+				67C6643723E8003E00178CBB /* strawberry-surprise@3x.jpg */,
+				67C6646323E8004200178CBB /* super-sundae-thumb@2x.jpg */,
+				67C6645E23E8004100178CBB /* super-sundae-thumb@3x.jpg */,
+				67C6643A23E8003E00178CBB /* super-sundae@2x.jpg */,
+				67C6648823E8004500178CBB /* super-sundae@3x.jpg */,
+				67C6646523E8004200178CBB /* superfood-salad-thumb@2x.jpg */,
+				67C6644523E8003F00178CBB /* superfood-salad-thumb@3x.jpg */,
+				67C6648D23E8004500178CBB /* superfood-salad@2x.jpg */,
+				67C6647523E8004300178CBB /* superfood-salad@3x.jpg */,
+				67C6648F23E8004500178CBB /* thai-red-curry-thumb@2x.jpg */,
+				67C6648E23E8004500178CBB /* thai-red-curry-thumb@3x.jpg */,
+				67C6647F23E8004400178CBB /* thai-red-curry@2x.jpg */,
+				67C6649523E8004600178CBB /* thai-red-curry@3x.jpg */,
+				67C6644223E8003F00178CBB /* tower-burger-thumb@2x.jpg */,
+				67C6645823E8004100178CBB /* tower-burger-thumb@3x.jpg */,
+				67C6649623E8004600178CBB /* tower-burger@2x.jpg */,
+				67C6648523E8004400178CBB /* tower-burger@3x.jpg */,
+				67C6643F23E8003F00178CBB /* veggie-pizza-thumb@2x.jpg */,
+				67C6643E23E8003F00178CBB /* veggie-pizza-thumb@3x.jpg */,
+				67C6645A23E8004100178CBB /* veggie-pizza@2x.jpg */,
+				67C6645D23E8004100178CBB /* veggie-pizza@3x.jpg */,
+				67C6649023E8004500178CBB /* virgin-mojito-thumb@2x.jpg */,
+				67C6644C23E8004000178CBB /* virgin-mojito-thumb@3x.jpg */,
+				67C6644923E8003F00178CBB /* virgin-mojito@2x.jpg */,
+				67C6643423E8003E00178CBB /* virgin-mojito@3x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C6640E23E7F6B700178CBB /* ToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C6642323E7F6B900178CBB /* Build configuration list for PBXNativeTarget "ToDoList" */;
+			buildPhases = (
+				67C6640B23E7F6B700178CBB /* Sources */,
+				67C6640C23E7F6B700178CBB /* Frameworks */,
+				67C6640D23E7F6B700178CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoList;
+			productName = ToDoList;
+			productReference = 67C6640F23E7F6B700178CBB /* ToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C6640723E7F6B700178CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Tuomas Käyhty";
+				TargetAttributes = {
+					67C6640E23E7F6B700178CBB = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 67C6640A23E7F6B700178CBB /* Build configuration list for PBXProject "ToDoList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C6640623E7F6B700178CBB;
+			productRefGroup = 67C6641023E7F6B700178CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C6640E23E7F6B700178CBB /* ToDoList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C6640D23E7F6B700178CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C664CD23E8004700178CBB /* veggie-pizza@3x.jpg in Resources */,
+				67C6650923E8004700178CBB /* chrysanthemum-tea@3x.jpg in Resources */,
+				67C664D323E8004700178CBB /* super-sundae-thumb@2x.jpg in Resources */,
+				67C664CA23E8004700178CBB /* veggie-pizza@2x.jpg in Resources */,
+				67C664E623E8004700178CBB /* fillet-steak@2x.jpg in Resources */,
+				67C664D523E8004700178CBB /* superfood-salad-thumb@2x.jpg in Resources */,
+				67C664A623E8004700178CBB /* chrysanthemum-tea-thumb@3x.jpg in Resources */,
+				67C6642C23E7FDAD00178CBB /* Menu.swift in Resources */,
+				67C6650823E8004700178CBB /* pesto-farfalle-thumb@3x.jpg in Resources */,
+				67C664DE23E8004700178CBB /* cheese-toastie@3x.jpg in Resources */,
+				67C664BD23E8004700178CBB /* straight-up-oj-thumb@2x.jpg in Resources */,
+				67C664E723E8004700178CBB /* pepperoni-pizza@3x.jpg in Resources */,
+				67C664EB23E8004700178CBB /* full-english@3x.jpg in Resources */,
+				67C664D823E8004700178CBB /* mexican-mocha@2x.jpg in Resources */,
+				67C664AC23E8004700178CBB /* full-english-thumb@3x.jpg in Resources */,
+				67C664E023E8004700178CBB /* macarons-galore@2x.jpg in Resources */,
+				67C664B823E8004700178CBB /* mushroom-tagliatelle@2x.jpg in Resources */,
+				67C664ED23E8004700178CBB /* straight-up-oj@2x.jpg in Resources */,
+				67C664BA23E8004700178CBB /* power-muesli-thumb@2x.jpg in Resources */,
+				67C664DA23E8004700178CBB /* maple-french-toast-thumb@2x.jpg in Resources */,
+				67C664B323E8004700178CBB /* chrysanthemum-tea-thumb@2x.jpg in Resources */,
+				67C664B423E8004700178CBB /* chrysanthemum-tea@2x.jpg in Resources */,
+				67C664C023E8004700178CBB /* pepperoni-pizza-thumb@3x.jpg in Resources */,
+				67C664BC23E8004700178CBB /* virgin-mojito-thumb@3x.jpg in Resources */,
+				67C664FD23E8004700178CBB /* superfood-salad@2x.jpg in Resources */,
+				67C664A523E8004700178CBB /* strawberry-cooler-thumb@2x.jpg in Resources */,
+				67C664AD23E8004700178CBB /* macarons-galore-thumb@3x.jpg in Resources */,
+				67C664BB23E8004700178CBB /* corn-on-the-cob@2x.jpg in Resources */,
+				67C6641F23E7F6B900178CBB /* LaunchScreen.storyboard in Resources */,
+				67C664B623E8004700178CBB /* mushroom-tagliatelle@3x.jpg in Resources */,
+				67C664F723E8004700178CBB /* paella-alicante@2x.jpg in Resources */,
+				67C664C623E8004700178CBB /* strawberry-cooler-thumb@3x.jpg in Resources */,
+				67C6649E23E8004700178CBB /* strawberry-surprise@2x.jpg in Resources */,
+				67C664DB23E8004700178CBB /* fresh-baked-croissant-thumb@3x.jpg in Resources */,
+				67C6650323E8004700178CBB /* all-out-donuts@2x.jpg in Resources */,
+				67C664E523E8004700178CBB /* superfood-salad@3x.jpg in Resources */,
+				67C6650723E8004700178CBB /* porridge-deluxe-thumb@2x.jpg in Resources */,
+				67C664CF23E8004700178CBB /* powerhouse-coffee-thumb@2x.jpg in Resources */,
+				67C664B723E8004700178CBB /* straight-up-oj@3x.jpg in Resources */,
+				67C664BF23E8004700178CBB /* strawberry-surprise-thumb@2x.jpg in Resources */,
+				67C664DF23E8004700178CBB /* paella-alicante-thumb@3x.jpg in Resources */,
+				67C664AB23E8004700178CBB /* pesto-farfalle-thumb@2x.jpg in Resources */,
+				67C6650223E8004700178CBB /* penne-carbonara@3x.jpg in Resources */,
+				67C664C523E8004700178CBB /* powerhouse-coffee-thumb@3x.jpg in Resources */,
+				67C664EF23E8004700178CBB /* thai-red-curry@2x.jpg in Resources */,
+				67C664F323E8004700178CBB /* fillet-steak@3x.jpg in Resources */,
+				67C664C823E8004700178CBB /* tower-burger-thumb@3x.jpg in Resources */,
+				67C664DD23E8004700178CBB /* pesto-farfalle@3x.jpg in Resources */,
+				67C664EC23E8004700178CBB /* full-english@2x.jpg in Resources */,
+				67C664FF23E8004700178CBB /* thai-red-curry-thumb@2x.jpg in Resources */,
+				67C664D923E8004700178CBB /* corn-on-the-cob@3x.jpg in Resources */,
+				67C6641C23E7F6B900178CBB /* Preview Assets.xcassets in Resources */,
+				67C664F223E8004700178CBB /* porridge-deluxe-thumb@3x.jpg in Resources */,
+				67C664D223E8004700178CBB /* fillet-steak-thumb@2x.jpg in Resources */,
+				67C664BE23E8004700178CBB /* maple-french-toast-thumb@3x.jpg in Resources */,
+				67C6649F23E8004700178CBB /* cheese-toastie-thumb@3x.jpg in Resources */,
+				67C6650523E8004700178CBB /* thai-red-curry@3x.jpg in Resources */,
+				67C664FA23E8004700178CBB /* strawberry-cooler@2x.jpg in Resources */,
+				67C664E823E8004700178CBB /* mexican-mocha-thumb@2x.jpg in Resources */,
+				67C664AF23E8004700178CBB /* veggie-pizza-thumb@2x.jpg in Resources */,
+				67C664FC23E8004700178CBB /* cheese-toastie-thumb@2x.jpg in Resources */,
+				67C664F623E8004700178CBB /* straight-up-oj-thumb@3x.jpg in Resources */,
+				67C664C423E8004700178CBB /* paella-alicante-thumb@2x.jpg in Resources */,
+				67C664B123E8004700178CBB /* maple-french-toast@2x.jpg in Resources */,
+				67C664C923E8004700178CBB /* porridge-deluxe@3x.jpg in Resources */,
+				67C6642923E7FAAA00178CBB /* menu.json in Resources */,
+				67C6641923E7F6B800178CBB /* Assets.xcassets in Resources */,
+				67C664A323E8004700178CBB /* stack-o-pancakes-thumb@3x.jpg in Resources */,
+				67C6650023E8004700178CBB /* virgin-mojito-thumb@2x.jpg in Resources */,
+				67C664F423E8004700178CBB /* pepperoni-pizza@2x.jpg in Resources */,
+				67C664F123E8004700178CBB /* strawberry-cooler@3x.jpg in Resources */,
+				67C664B023E8004700178CBB /* penne-carbonara-thumb@2x.jpg in Resources */,
+				67C664E123E8004700178CBB /* stack-o-pancakes@3x.jpg in Resources */,
+				67C664B223E8004700178CBB /* tower-burger-thumb@2x.jpg in Resources */,
+				67C664D723E8004700178CBB /* cheese-toastie@2x.jpg in Resources */,
+				67C6650D23E8004700178CBB /* fresh-baked-croissant@2x.jpg in Resources */,
+				67C6650423E8004700178CBB /* powerhouse-coffee@2x.jpg in Resources */,
+				67C664AA23E8004700178CBB /* super-sundae@2x.jpg in Resources */,
+				67C664E923E8004700178CBB /* strawberry-surprise-thumb@3x.jpg in Resources */,
+				67C664C323E8004700178CBB /* maple-french-toast@3x.jpg in Resources */,
+				67C664A923E8004700178CBB /* penne-carbonara@2x.jpg in Resources */,
+				67C664E223E8004700178CBB /* all-out-donuts@3x.jpg in Resources */,
+				67C664F923E8004700178CBB /* mushroom-tagliatelle-thumb@2x.jpg in Resources */,
+				67C664A823E8004700178CBB /* all-out-donuts-thumb@3x.jpg in Resources */,
+				67C664A423E8004700178CBB /* virgin-mojito@3x.jpg in Resources */,
+				67C6650123E8004700178CBB /* paella-alicante@3x.jpg in Resources */,
+				67C664D623E8004700178CBB /* penne-carbonara-thumb@3x.jpg in Resources */,
+				67C664A723E8004700178CBB /* strawberry-surprise@3x.jpg in Resources */,
+				67C664F823E8004700178CBB /* super-sundae@3x.jpg in Resources */,
+				67C6650A23E8004700178CBB /* mexican-mocha@3x.jpg in Resources */,
+				67C664A223E8004700178CBB /* corn-on-the-cob-thumb@2x.jpg in Resources */,
+				67C664D423E8004700178CBB /* corn-on-the-cob-thumb@3x.jpg in Resources */,
+				67C664E323E8004700178CBB /* porridge-deluxe@2x.jpg in Resources */,
+				67C664E423E8004700178CBB /* fresh-baked-croissant@3x.jpg in Resources */,
+				67C664C123E8004700178CBB /* stack-o-pancakes@2x.jpg in Resources */,
+				67C664F523E8004700178CBB /* tower-burger@3x.jpg in Resources */,
+				67C664FE23E8004700178CBB /* thai-red-curry-thumb@3x.jpg in Resources */,
+				67C664B523E8004700178CBB /* superfood-salad-thumb@3x.jpg in Resources */,
+				67C664C223E8004700178CBB /* mushroom-tagliatelle-thumb@3x.jpg in Resources */,
+				67C664EE23E8004700178CBB /* pesto-farfalle@2x.jpg in Resources */,
+				67C664CE23E8004700178CBB /* super-sundae-thumb@3x.jpg in Resources */,
+				67C664B923E8004700178CBB /* virgin-mojito@2x.jpg in Resources */,
+				67C664D123E8004700178CBB /* macarons-galore-thumb@2x.jpg in Resources */,
+				67C664D023E8004700178CBB /* power-muesli-thumb@3x.jpg in Resources */,
+				67C664FB23E8004700178CBB /* macarons-galore@3x.jpg in Resources */,
+				67C664CB23E8004700178CBB /* stack-o-pancakes-thumb@2x.jpg in Resources */,
+				67C664EA23E8004700178CBB /* power-muesli@2x.jpg in Resources */,
+				67C664CC23E8004700178CBB /* mexican-mocha-thumb@3x.jpg in Resources */,
+				67C664A023E8004700178CBB /* pepperoni-pizza-thumb@2x.jpg in Resources */,
+				67C664F023E8004700178CBB /* fresh-baked-croissant-thumb@2x.jpg in Resources */,
+				67C6650C23E8004700178CBB /* all-out-donuts-thumb@2x.jpg in Resources */,
+				67C664AE23E8004700178CBB /* veggie-pizza-thumb@3x.jpg in Resources */,
+				67C664DC23E8004700178CBB /* full-english-thumb@2x.jpg in Resources */,
+				67C6650B23E8004700178CBB /* power-muesli@3x.jpg in Resources */,
+				67C664C723E8004700178CBB /* fillet-steak-thumb@3x.jpg in Resources */,
+				67C664A123E8004700178CBB /* powerhouse-coffee@3x.jpg in Resources */,
+				67C6650623E8004700178CBB /* tower-burger@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C6640B23E7F6B700178CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6641323E7F6B700178CBB /* AppDelegate.swift in Sources */,
+				67C665FB23E80F1900178CBB /* CheckoutView.swift in Sources */,
+				67C6641523E7F6B700178CBB /* SceneDelegate.swift in Sources */,
+				67C665F323E80A9900178CBB /* Order.swift in Sources */,
+				67C6642B23E7FB2300178CBB /* Helper.swift in Sources */,
+				67C6650F23E801F500178CBB /* ItemRow.swift in Sources */,
+				67C6642723E7F93700178CBB /* Menu.swift in Sources */,
+				67C665F523E80BE600178CBB /* OrderView.swift in Sources */,
+				67C6641723E7F6B800178CBB /* ContentView.swift in Sources */,
+				67C665F723E80D7300178CBB /* AppView.swift in Sources */,
+				67C665F123E8083A00178CBB /* ItemDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67C6641D23E7F6B900178CBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C6641E23E7F6B900178CBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67C6642123E7F6B900178CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67C6642223E7F6B900178CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C6642423E7F6B900178CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.fi.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67C6642523E7F6B900178CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.fi.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C6640A23E7F6B700178CBB /* Build configuration list for PBXProject "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6642123E7F6B900178CBB /* Debug */,
+				67C6642223E7F6B900178CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C6642323E7F6B900178CBB /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6642423E7F6B900178CBB /* Debug */,
+				67C6642523E7F6B900178CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C6640723E7F6B700178CBB /* Project object */;
+}
